@@ -54,6 +54,8 @@ Structures are good for times when you need to store multiple similar entries, a
 * a Services section, where the order of services matters
 * a company organization chart
 
+Note that structures can't have more than one parent. If you need an entry to have more than one parent, use relationships instead..
+
 ### Entry URI Formats
 
 Channel and Structure sections can choose whether their entries should be assigned URLs in the system, by filling in the “Entry URI Format” setting.
